@@ -12,7 +12,7 @@ import { FeaturedResearch } from "./FeaturedResearch";
 // import { AuthCard } from "./AuthCard";
 import { Footer } from "./Footer";
 import { DarkModeToggle } from "./DarkModeToggle";
-import Login from "../auth/Login";
+import Login from "../Auth/Login";
 
 export default function LandingPage() {
   const [isDark, setIsDark] = useState(true);
